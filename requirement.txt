@@ -1,0 +1,5 @@
+langchain
+langchain_core.prompts 
+langchain_core.output_parsers 
+langchain_google_genai
+langchain_community
