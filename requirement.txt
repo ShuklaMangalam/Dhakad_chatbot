@@ -1,4 +1,4 @@
 langchain
 langchain-core  
-langchain_google_genai
-langchain_community
+langchain-google-genai
+langchain-community
