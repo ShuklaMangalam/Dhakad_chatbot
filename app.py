@@ -1,3 +1,6 @@
+import asyncio
+import nest_asyncio
+nest_asyncio.apply()
 import streamlit as st
 import os
 import pandas as pd
