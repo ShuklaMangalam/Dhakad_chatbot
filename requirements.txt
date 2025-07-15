@@ -2,9 +2,7 @@ langchain
 langchain-core 
 langchain-google-genai
 langchain-community
-pypdf
-faiss-cpu
-pandas 
-openpyxl 
+streamlit
 python-docx
 PyPDF2
+faiss-cpu
