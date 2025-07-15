@@ -1,4 +1,10 @@
 langchain
-langchain-core  
+langchain-core 
 langchain-google-genai
 langchain-community
+pypdf
+faiss-cpu
+pandas 
+openpyxl 
+python-docx
+PyPDF2
