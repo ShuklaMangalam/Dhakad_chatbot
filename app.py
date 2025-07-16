@@ -42,7 +42,7 @@ input_text = st.text_input("💬 Ask a general question:")
 if input_text:
     chain = prompt_template | llm | output_parser
     response = chain.invoke({"question": input_text})
-    st.markdown("### 🤖 Gemini's Answer:")
+    st.markdown("### 🤖 Dhakad's Answer:")
     st.write(response)
     st.snow()
 
