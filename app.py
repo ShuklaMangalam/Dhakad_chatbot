@@ -8,7 +8,7 @@ from docx import Document
 from PyPDF2 import PdfReader
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -144,3 +144,4 @@ if input_query:
             st.snow()
     else:
         st.warning("⚠️ Please upload a file first before asking questions.")
+
