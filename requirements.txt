@@ -7,3 +7,4 @@ python-docx
 PyPDF2
 faiss-cpu
 nest_asyncio
+langchain_text_splitter
